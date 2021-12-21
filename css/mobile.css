@@ -1,0 +1,146 @@
+@media screen and (max-width: 768px) {
+  /* Navbar */
+  #navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #navbar ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #navbar a {
+    color: #000;
+    padding: 5px 5px;
+    margin: 5 0px;
+    font-size: 1.1rem;
+  }
+
+  #nabar ul li {
+    padding: 3px;
+    margin: 2px;
+  }
+
+  #navbar nav > ul > li > a {
+    font-size: 0.7rem;
+  }
+
+  /* Introduction (Home) */
+  .master .content h2 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+
+  #home > div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0;
+  }
+
+  #home .description {
+    display: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+  #home .description h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #home .description p {
+    height: auto;
+    width: auto;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 5px;
+  }
+
+  #home div > img {
+    display: none;
+  }
+
+  /*Reviews */
+
+  #reviews .reviews {
+    flex-direction: column;
+  }
+
+  section#reviews > div {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  #reviews header h3 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  #reviews div > h3 {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  #reviews header i {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  footer .footer {
+    height: 80px;
+  }
+
+  .flags {
+    flex-direction: column;
+  }
+  .flags img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .flags img.eu-flag {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .flags img.uk-flag {
+    padding: 10px;
+  }
+
+  .uk-content,
+  .eu-content {
+    grid-template-columns: 1fr;
+    width: 100%;
+    overflow-y: auto;
+  }
+
+  #prices .container h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  #prices .container p {
+    height: auto;
+    width: auto;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 5px;
+  }
+
+  #prices .container table {
+    width: auto;
+    align-self: center;
+  }
+
+  #prices .container table td {
+    font-size: 0.9rem;
+  }
+}
