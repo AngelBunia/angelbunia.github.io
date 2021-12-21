@@ -143,4 +143,24 @@
   #prices .container table td {
     font-size: 0.9rem;
   }
+
+  #moving-tips .grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+  #terms .container .wrap .conditions {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  #terms ul {
+    padding: 5px;
+    margin: 5px;
+    margin-left: 5px;
+    padding-left: 5px;
+  }
 }
