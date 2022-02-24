@@ -64,7 +64,7 @@ p {
   justify-content: space-between;
   background-color: #f4f4f4;
   color: #000;
-  opacity: 0.8;
+  opacity: 1;
   width: 100vw;
   height: 70px;
   position: fixed;
@@ -157,8 +157,8 @@ section#moving-tips {
   align-items: center;
   justify-content: center;
   max-height: 100%;
-  margin-top: 1rem;
-  padding: 0.5rem;
+  margin: 1rem;
+  padding: 2rem;
 }
 
 #home .description {
@@ -168,7 +168,6 @@ section#moving-tips {
   width: 50%;
   padding: 10px;
   margin-top: 70px;
-  /* margin: 5px 10px; */
   gap: 5px;
 }
 
@@ -411,67 +410,17 @@ footer .footer-info .connect {
   width: 400px;
 }
 
-/* Moving Tips */
-
-#moving-tips .container {
-  margin-top: 80px;
-}
-
-#moving-tips .grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  margin-top: 50px;
-  padding-top: 50px;
-}
-
-#moving-tips img {
-  width: 95%;
-  height: 95%;
-  border-radius: 200px;
-  padding: 10px;
-  margin: 15px;
-  justify-content: center;
-}
-
-#moving-tips ul {
-  padding: 10px;
-  margin: 10px;
-  margin-left: 15px;
-}
-
-#moving-tips li {
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  position: relative;
-  z-index: 1;
-  font-family: "Indie Flower", cursive;
-  font-size: 25px;
-}
-
-#moving-tips li:before {
-  content: "";
-  position: absolute;
-  left: 25%;
-  bottom: 0;
-  height: 1px;
-  width: 50%;
-  border-bottom: #3399ff 0.5px outset;
-}
-
 /* Contact form */
 
 #contact-form {
   margin-top: 70px;
   margin-bottom: 50px;
-  padding: 30px 30px;
+  padding: 10px 30px 30px 30px;
 }
 
 #contact-form .container {
   padding: 20px;
-  margin: 20px;
+  margin: 10px 20px 20px 20px;
 }
 
 #contact-form .form-group {
@@ -533,8 +482,8 @@ footer .footer-info .connect {
 }
 
 #terms ul {
-  padding: 20px;
-  margin: 20px;
+  padding: 5px 20px 20px 20px;
+  margin: 5px 20px 20px 20px;
   margin-left: 15px;
   padding-left: 20px;
 }
@@ -543,7 +492,7 @@ footer .footer-info .connect {
   padding: 10px;
   margin: 10px;
   text-align: left;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif, sans-serif;
   font-size: 25px;
   text-indent: -5px;
 }

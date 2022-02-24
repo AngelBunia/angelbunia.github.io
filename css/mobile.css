@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   /* Navbar */
   #navbar {
     flex-direction: column;
@@ -25,7 +25,7 @@
   }
 
   #navbar nav > ul > li > a {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   /* Introduction (Home) */
@@ -39,8 +39,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0.5rem;
-    padding: 0;
+    margin-top: 103px;
+    /* padding: 1rem; */
   }
 
   #home .description {
@@ -100,10 +100,11 @@
 
   .flags {
     flex-direction: column;
+    margin-top: 20px;
   }
   .flags img {
     width: auto;
-    max-width: 100%;
+    max-width: 65%;
     height: auto;
   }
 
@@ -144,14 +145,6 @@
     font-size: 0.9rem;
   }
 
-  #moving-tips .grid {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    padding-top: 20px;
-  }
   #terms .container .wrap .conditions {
     font-size: 24px;
     line-height: 1.4;
