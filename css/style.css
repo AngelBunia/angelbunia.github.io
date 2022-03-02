@@ -459,7 +459,8 @@ footer .footer-info .connect {
   color: var(--primary-color);
 }
 
-#contact-form .submission {
+#contact-form input#btn-form {
+  width: 20%;
 }
 
 .required {
