@@ -459,6 +459,9 @@ footer .footer-info .connect {
   color: var(--primary-color);
 }
 
+#contact-form .submission {
+}
+
 .required {
   color: rgb(255, 0, 0);
 }

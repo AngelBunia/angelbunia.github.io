@@ -1,4 +1,6 @@
 "use strict";
 
-// smooth scrolling
-// document load property?
+document.getElementById("submitButton").addEventListener("click", function () {
+  document.getElementById("submission").hidden = true;
+  document.getElementById("quote-intro").hidden = true;
+});
