@@ -7,7 +7,7 @@ $quote = $_POST['quote'];
 $email_from = 'contact@tgbservices.co.uk';
 $email_subject = "Quote Request";
 
-$email_body = "You have received a new message from the user $name.\n." "Here is the message:\n $quote."
+$email_body = "You have received a new message from the user $name\n. Here is the message:\n $quote.";
 
 $to = "contact@tgbservices.co.uk";
 $headers = "From: $email_from \r\n";
@@ -38,22 +38,22 @@ function isInjected($str)
 
 if(isInjected($name)) {
     echo "Bad name value!";
-    exit
+    exit;
 }
 
 if(isInjected($email_address)) {
     echo "Bad email value!";
-    exit
+    exit;
 }
 
 if(isInjected($phone_number)) {
     echo "Bad phone number value!";
-    exit
+    exit;
 }
 
 if(isInjected($quote)) {
-    echo "Bad message value!";
-    exit
+    echo "Bad messa value!";
+    exit;
 }
 
 /* function filterInput($form_field) {
