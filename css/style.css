@@ -102,6 +102,7 @@ p {
   height: 100%;
   padding: 0 20px;
   background: url("../img/van-intro.jpg") no-repeat center center/cover;
+  z-index: 1;
 }
 
 header a span {
@@ -114,6 +115,7 @@ header a span {
   font-size: 55px;
   padding: 5px 0;
   margin: 10px;
+  z-index: 9;
 }
 
 .master .content p {
@@ -123,6 +125,7 @@ header a span {
   font-size: 24px;
   max-width: 600px;
   margin: 20px 0 30px;
+  z-index: 9;
 }
 
 .master * {
@@ -141,8 +144,7 @@ header a span {
 
 /* Home page */
 
-section#home,
-section#moving-tips {
+section#home {
   height: 100%;
   width: 100%;
 }
@@ -482,7 +484,7 @@ footer .footer-info .connect {
   margin: 5px;
   padding: 5px;
   text-align: center;
-  font-size: 36px;
+  font-size: 25px;
 }
 
 #terms ul {
@@ -497,7 +499,7 @@ footer .footer-info .connect {
   margin: 10px;
   text-align: left;
   font-family: "Open Sans", sans-serif, sans-serif;
-  font-size: 25px;
+  font-size: 16px;
   text-indent: -5px;
 }
 
