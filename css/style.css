@@ -17,7 +17,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.8em;
-  min-height: 100%;
+  /* min-height: 100vh; */
   width: 100vw;
   overflow-x: hidden;
 }
@@ -278,10 +278,190 @@ section#reviews > div {
   overflow: hidden;
 }
 
+/* Prices */
+
+#prices {
+  display: grid;
+}
+
+.flags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flags img {
+  margin-top: 70px;
+  padding: 20px;
+  max-width: 35%;
+  height: 260px;
+  border-radius: 100px;
+}
+
+.uk-content,
+.eu-content {
+  margin: 10px;
+  padding: 5px;
+  width: 75%;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  justify-self: center;
+}
+
+#prices .container {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  align-self: center;
+  justify-self: center;
+}
+
+#prices .container h1,
+#prices .container p {
+  text-align: center;
+}
+
+#prices .container table th,
+#prices .container table td {
+  padding: 0.4rem;
+  text-align: left;
+}
+
+#prices .container table {
+  table-layout: fixed;
+  width: 400px;
+}
+
+/* Contact form */
+
+#contact-form {
+  margin-top: 70px;
+  padding: 10px 30px 30px 30px;
+  min-height: calc(100vh - 211px);
+}
+
+#contact-form .container {
+  padding: 20px;
+  margin: 10px 20px 20px 20px;
+}
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+#contact-form .container .heading {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+#contact-form .container .heading span {
+  color: var(--primary-color);
+}
+
+#contact-form input#btn-form {
+  width: 20%;
+}
+
+.required {
+  color: rgb(255, 0, 0);
+}
+
+#contact-form .form-progress {
+  justify-self: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 100px;
+  padding: auto;
+}
+
+#contact-form .form-progress h2 {
+  text-align: center;
+}
+
+#contact-form .form-progress p {
+  text-align: center;
+}
+
+/* Terms */
+
+#terms .container {
+  margin-top: 80px;
+}
+
+#terms .container .wrap {
+  padding: 20px;
+  margin: 20px;
+}
+
+#terms .container .wrap .conditions {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+#terms ul {
+  padding: 5px 20px 20px 20px;
+  margin: 5px 20px 20px 20px;
+  margin-left: 15px;
+  padding-left: 20px;
+}
+
+#terms li {
+  padding: 10px;
+  margin: 10px;
+  text-align: left;
+  font-family: "Open Sans", sans-serif, sans-serif;
+  font-size: 16px;
+  text-indent: -5px;
+}
+
+#terms ul.master-list ul.nest-list {
+  margin: 0px;
+  padding: 0px;
+}
+
+#terms ul.master-list ul.nest-list li {
+  margin: 5px;
+  padding: 5px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+#terms ul.master-list {
+  list-style-type: decimal;
+}
+
 /* Footer */
 footer {
   background: var(--primary-color);
   width: 100%;
+  bottom: 0;
 }
 
 footer .footer {
@@ -356,157 +536,4 @@ footer .footer-info .connect {
   align-items: left;
   justify-content: left;
   text-align: left;
-}
-
-/* Prices */
-
-#prices {
-  display: grid;
-}
-
-.flags {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flags img {
-  margin-top: 70px;
-  padding: 20px;
-  max-width: 35%;
-  height: 260px;
-  border-radius: 100px;
-}
-
-.uk-content,
-.eu-content {
-  margin: 10px;
-  padding: 5px;
-  width: 75%;
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  align-items: center;
-  justify-self: center;
-}
-
-#prices .container {
-  margin: 0.5rem;
-  padding: 0.5rem;
-  align-self: center;
-  justify-self: center;
-}
-
-#prices .container h1,
-#prices .container p {
-  text-align: center;
-}
-
-#prices .container table th,
-#prices .container table td {
-  margin: 5px;
-  padding: 0.4rem;
-  text-align: left;
-}
-
-#prices .container table {
-  width: 400px;
-}
-
-/* Contact form */
-
-#contact-form {
-  margin-top: 70px;
-  margin-bottom: 50px;
-  padding: 10px 30px 30px 30px;
-}
-
-#contact-form .container {
-  padding: 20px;
-  margin: 10px 20px 20px 20px;
-}
-
-#contact-form .form-group {
-  margin-bottom: 20px;
-}
-
-#contact-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#contact-form input,
-#contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px #ddd solid;
-}
-
-#contact-form textarea {
-  height: 200px;
-}
-
-#contact-form input:focus,
-#contact-form textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-}
-
-#contact-form .container .heading {
-  font-size: 40px;
-  line-height: 1.2;
-  font-weight: bold;
-}
-
-#contact-form .container .heading span {
-  color: var(--primary-color);
-}
-
-#contact-form input#btn-form {
-  width: 20%;
-}
-
-.required {
-  color: rgb(255, 0, 0);
-}
-
-/* Terms */
-
-#terms .container {
-  margin-top: 80px;
-}
-
-#terms .container .wrap {
-  padding: 20px;
-  margin: 20px;
-}
-
-#terms .container .wrap .conditions {
-  margin: 5px;
-  padding: 5px;
-  text-align: center;
-  font-size: 25px;
-}
-
-#terms ul {
-  padding: 5px 20px 20px 20px;
-  margin: 5px 20px 20px 20px;
-  margin-left: 15px;
-  padding-left: 20px;
-}
-
-#terms li {
-  padding: 10px;
-  margin: 10px;
-  text-align: left;
-  font-family: "Open Sans", sans-serif, sans-serif;
-  font-size: 16px;
-  text-indent: -5px;
-}
-
-.bold-text {
-  font-weight: bold;
-}
-
-#terms ul.master-list {
-  list-style-type: decimal;
 }

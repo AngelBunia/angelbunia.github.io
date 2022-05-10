@@ -137,11 +137,13 @@
   }
 
   #prices .container table {
-    width: auto;
+    width: 85vw;
     align-self: center;
   }
 
-  #prices .container table td {
+  #prices .container table td,
+  #prices .container table th {
+    text-align: center;
     font-size: 0.9rem;
   }
 
