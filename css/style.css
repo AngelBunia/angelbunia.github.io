@@ -93,8 +93,7 @@ p {
 }
 
 #navbar ul.menu-items li {
-  width: 25%;
-  text-align: left;
+  text-align: center;
 }
 
 #navbar div.contact-details-nav {
@@ -311,14 +310,20 @@ section#reviews > div {
   justify-content: center;
 } */
 
-#prices {
+#removals {
   margin-top: auto;
+}
+
+.destinations {
+  max-width: 75vw;
+  margin: auto;
+  margin-top: 60px;
 }
 
 .destinations img {
   /* margin-top: 120px; */
   padding: 20px;
-  max-width: 100%;
+  max-width: 50%;
   height: 260px;
   border-radius: 100px;
 }
@@ -342,14 +347,14 @@ section#reviews > div {
   gap: 10px;
 }
 
-#prices .container {
+#removals .container {
   margin: 0.5rem;
   padding: 0.5rem;
   flex: 2;
 }
 
-#prices .container h1,
-#prices .container p {
+#removals .container h1,
+#removals .container p {
   text-align: center;
 }
 

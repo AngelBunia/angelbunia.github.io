@@ -16,7 +16,7 @@
     color: #000;
     padding: 5px 5px;
     margin: 5 0px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   #nabar ul li {
@@ -25,7 +25,17 @@
   }
 
   #navbar nav > ul > li > a {
-    font-size: 0.9rem;
+    font-size: 0.5rem;
+  }
+
+  #navbar div.contact-details-nav ul li {
+    font-size: 0.7rem;
+    margin: 2px;
+    padding: 2px;
+  }
+
+  #navbar ul.menu-items {
+    margin: 5px;
   }
 
   /* Introduction (Home) */
@@ -39,7 +49,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 103px;
+    /* margin-top: 30px; */
     /* padding: 1rem; */
   }
 
@@ -98,37 +108,50 @@
     height: 80px;
   }
 
-  .flags {
+  footer .footer-info .row {
     flex-direction: column;
-    margin-top: 20px;
-  }
-  .flags img {
-    width: auto;
-    max-width: 65%;
-    height: auto;
   }
 
-  .flags img.eu-flag {
+  footer .footer-info .row ul li span {
+    font-size: 0.7rem;
+  }
+
+  footer .footer-info .row ul li {
+    font-size: 0.9rem;
+  }
+
+  .destinations {
+    margin: auto;
+    margin-top: ;
+  }
+
+  .destinations img {
+    max-width: 100%;
+  }
+
+  img.eu-flag {
     margin-top: 10px;
     padding: 10px;
   }
 
-  .flags img.uk-flag {
+  img.uk-flag {
     padding: 10px;
   }
 
   .uk-content,
   .eu-content {
-    grid-template-columns: 1fr;
-    width: 100%;
-    overflow-y: auto;
+    flex-direction: column;
   }
 
-  #prices .container h1 {
+  #removals {
+    margin-top: 120px;
+  }
+
+  #removals .container h1 {
     font-size: 1rem;
     text-align: center;
   }
-  #prices .container p {
+  #removals .container p {
     height: auto;
     width: auto;
     font-size: 0.9rem;
@@ -136,13 +159,13 @@
     padding: 5px;
   }
 
-  #prices .container table {
+  #removals .container table {
     width: 85vw;
     align-self: center;
   }
 
-  #prices .container table td,
-  #prices .container table th {
+  #removals .container table td,
+  #removals .container table th {
     text-align: center;
     font-size: 0.9rem;
   }
